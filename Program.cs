@@ -14,7 +14,7 @@ builder.WebHost.UseUrls("http://*:3202");
 
 
 //Http Services
-builder.Services.AddScoped<NotificationService>();
+builder.Services.AddHttpClient<NotificationService>();
 
 
 
